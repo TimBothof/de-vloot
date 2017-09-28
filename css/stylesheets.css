@@ -1,0 +1,146 @@
+html {
+  text-align: center;
+  margin: 0px auto;
+}
+
+header {
+  width: 800px;
+  margin: 0px auto;
+  background-image: url("grfx/header.jpg") ;
+  height:271px;
+  margin-bottom: 0px;
+}
+
+article {
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+    margin-top: -20px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+p{
+  padding: 10px 5px;
+  text-align: left;
+  margin-left: 15px;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("grfx/bg.png");
+  background-repeat: repeat-x;
+  font-family: sans-serif;
+  margin-top:-22px;
+}
+
+nav {
+  height:42px;
+  margin-top: 100px;
+  margin-left: -30px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+nav ul {
+list-style:none;
+}
+
+nav ul li a{
+  float: left;
+  padding: 5px;
+text-decoration:none;
+  color: white;
+  padding:0px 15px;
+  text-align:center;
+  line-height:42px;
+  height:42px;
+}
+
+
+nav ul li a:hover{
+  background-color:white;
+  color:white;
+  border-radius:8px;
+}
+
+nav ul li a.active {
+  background-color: black;
+  border-radius:px;
+  color: white;
+}
+
+title {
+
+}
+
+h1
+{
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+h2
+{
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+h5
+{
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif
+}
+
+#boot {
+  float: left;
+  padding: 0px 15px;
+  margin: auto;
+  margin-left: 0px;
+}
+
+#boot1 {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+#boot2 {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#boot3 {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#boot4 {
+  float: right;
+  margin: 15 px;
+}
+
+#boot5 {
+float: left;
+margin: 10px;
+}
+
+#boot6 {
+  float: right;
+  margin: 10px;
+}
+#boot7 {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+}

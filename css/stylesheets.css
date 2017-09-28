@@ -1,46 +1,40 @@
 html {
-  text-align: center;
+  text-align: left;
   margin: 0px auto;
 }
 
 header {
-  width: 800px;
+  width: 690px;
   margin: 0px auto;
   background-image: url("grfx/header.jpg") ;
-  height:271px;
+  height:274px;
   margin-bottom: 0px;
 }
 
 article {
-    width: 800px;
-    height: 500px;
-    margin: 0px auto;
-    margin-top: -20px;
+    text-align: left;
+    width: 690px;
+    height:500px;
+    margin:0px auto;
+    margin-top: -18px;
     background-color: white;
     font-family: sans-serif;
-    font-size: 16px;
-    text-align: left;
-}
-p{
-  padding: 10px 5px;
-  text-align: left;
-  margin-left: 15px;
-  font-family: sans-serif;
+    font-size: 15px
 }
 
 body {
   background-image: url("grfx/bg.png");
   background-repeat: repeat-x;
   font-family: sans-serif;
-  margin-top:-22px;
+  margin-top: -22px;
+
 }
 
 nav {
   height:42px;
-  margin-top: 100px;
-  margin-left: -30px;
-  font-family: sans-serif;
-  font-size: 10px;
+  margin-top:145px;
+  margin-left:-30px;
+  font-size: 12px;
 }
 
 nav ul {
@@ -48,61 +42,65 @@ list-style:none;
 }
 
 nav ul li a{
-  float: left;
-  padding: 5px;
-text-decoration:none;
+  float:left;
+  text-decoration:none;
   color: white;
-  padding:0px 15px;
-  text-align:center;
+  padding:0px 10px;
+  text-align:left;
   line-height:42px;
   height:42px;
 }
 
 
-nav ul li a:hover{
-  background-color:white;
+nav ul li a:hover:not(active){
+  background-color:gray;
   color:white;
-  border-radius:8px;
+  border-radius:2px;
 }
 
-nav ul li a.active {
-  background-color: black;
-  border-radius:px;
-  color: white;
+nav ul li a:.active {
+  background-color: red;
+  border-radius:2px;
+  color: red;
+}
+
+p {
+  text-align:left;
+  padding:0px 5px;
+  margin-left:10px;
+
+}
+
+
+h1 {
+  padding:10px 5px;
+  margin-top: 15px;
+  text-align:left;
+  margin-left:10px;
+}
+
+h5 {
+  padding:0px 5px;
+  margin-top:-33px;
+  text-align:left;
+  margin-left:10px;
+}
+
+h2 {
+  padding: 5px 5px;
+  text-align:left;
+  margin-left:10px;
+
 }
 
 title {
 
 }
 
-h1
-{
-    padding: 10px;
-    text-align: left;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-h2
-{
-    padding: 10px;
-    text-align: left;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-h5
-{
-    padding: 10px;
-    text-align: left;
-    margin-left: 10px;
-    font-family: sans-serif
-}
-
 #boot {
   float: left;
-  padding: 0px 15px;
-  margin: auto;
-  margin-left: 0px;
+  padding:0px 10px;
+  margin-left:-10px;
 }
 
 #boot1 {
@@ -119,10 +117,10 @@ h5
 }
 
 #boot3 {
+float: left;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  float: left;
 }
 
 #boot4 {
@@ -132,7 +130,7 @@ h5
 
 #boot5 {
 float: left;
-margin: 10px;
+  margin: 10px;
 }
 
 #boot6 {
